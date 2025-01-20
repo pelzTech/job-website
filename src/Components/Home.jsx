@@ -136,7 +136,7 @@ const Home = () => {
           <h4>pelzcode - Full-stack Web Developer</h4>
         </div>
         <div className="testimonial">
-          <p>This site helped me connect with the right companies. I got hired within two weeks!</p>
+          <p>This site helped me connect with the right companies. I got hired within two weeks!hom</p>
           <h4>Faiz - Marketing Specialist</h4>
         </div>
       </section>

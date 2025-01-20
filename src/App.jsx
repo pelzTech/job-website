@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
-import WelcomePage from './components/WelcomePage';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import JobPage from './components/JobPage';
-import About from './components/About';
-import CareerAdvice from './components/CareerAdvice';
-import Support from './components/Support';
-import Home from './components/Home';
-import ApplyPage from './components/ApplyPage';
-import EmployersJobList from './components/EmployersJobList';
-import ApplicationForm from './components/ApplicationForm';
+import WelcomePage from './Components/WelcomePage';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import JobPage from './Components/JobPage';
+import About from './Components/About';
+import CareerAdvice from './Components/CareerAdvice';
+import Support from './Components/Support';
+import Home from './Components/Home';
+import ApplyPage from './Components/ApplyPage';
+import EmployersJobList from './Components/EmployersJobList';
+import ApplicationForm from './Components/ApplicationForm';
 import './App.css';
 
 const AppContent = () => {
