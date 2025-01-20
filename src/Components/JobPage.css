@@ -1,0 +1,127 @@
+
+.job-page-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .search-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .search-box {
+    position: relative; 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #f5f5f5;
+    padding-left: 30px;
+    border-radius: 3px;
+    max-width: 300px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    margin-right: 30px;
+    color: #777;
+    left: 15px; 
+  }
+  
+  .search-input {
+    border: none;
+    background: transparent;
+    outline: none;
+    flex: 1;
+    left: 15px; 
+    font-size: 1rem;
+  }
+  
+  .category-select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 0.5;
+    max-width: 200px;
+  }
+  
+  
+  .category-list {
+    color: #490b3da4;
+    margin: 20px 0;
+  }
+  
+  .category-title {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .subcategory-list {
+    color: rgba(128, 0, 0, 0.502);
+    margin-left: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  
+  .job-listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .job-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+  }
+  
+  .job-title {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .apply-button {
+    background: linear-gradient(45deg, #490b3d, #bd1e51, #f1b814); 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: transform 0.2s ease, background-color 0.3s ease; 
+  }
+  
+  .apply-button:hover {
+    background: linear-gradient(45deg, #f1b814, #bd1e51, #490b3d); 
+    transform: scale(1.05); 
+  }
+  
+  .apply-button:active {
+    transform: scale(1); 
+    background: rgba(189, 30, 81, 0.9); 
+  }
+  
+  @media (max-width: 768px) {
+    .search-wrapper {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .category-select{
+      margin-left: 45px;
+    }
+  }
+  

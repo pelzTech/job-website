@@ -1,0 +1,142 @@
+
+.about-container {
+    max-width: 1200px;
+    margin-right: 20px;
+    width: 83%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  .hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    color: #490b3d;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .about-content {
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #490b3dc3;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .bio, .skills, .mission, .values {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Desktop Layout */
+  @media (min-width: 768px) {
+    .about-content {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .bio, .skills, .mission, .values {
+      width: 48%;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1.1rem;
+    }
+  
+    .hero-title {
+      font-size: 3rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .about-container {
+      padding: 10px;
+    }
+  
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  
+    .about-content {
+      gap: 20px;
+    }
+  
+    .bio, .skills, .mission, .values {
+      width: 100%;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 0.95rem;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 1.8rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 0.9rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    ul {
+      padding-left: 15px;
+    }
+  }
+  
