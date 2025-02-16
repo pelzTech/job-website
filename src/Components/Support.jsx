@@ -24,7 +24,7 @@ const Support = () => {
         We're here to assist you with any inquiries or challenges. Find detailed information and solutions below.
       </p>
 
-      {/* Contact Information */}
+      
       <section className="support-section">
         <h2>Contact Information</h2>
         <ul>
@@ -35,7 +35,6 @@ const Support = () => {
         </ul>
       </section>
 
-      {/* FAQs */}
       <section className="support-section">
         <h2>Frequently Asked Questions (FAQs)</h2>
         <div>
@@ -80,7 +79,7 @@ const Support = () => {
         </div>
       </section>
 
-      {/* Guides and Tutorials */}
+     
       <section className="support-section">
         <h2>Guides and Tutorials</h2>
         <p>Step-by-step guides and video tutorials to help you:</p>
@@ -92,7 +91,7 @@ const Support = () => {
         </ul>
       </section>
 
-      {/* Account Management */}
+      
       <section className="support-section">
         <h2>Account Management Help</h2>
         <ul>
@@ -102,7 +101,7 @@ const Support = () => {
         </ul>
       </section>
 
-      {/* Technical Support */}
+    
       <section className="support-section">
         <h2>Technical Support</h2>
         <ul>
@@ -112,7 +111,7 @@ const Support = () => {
         </ul>
       </section>
 
-      {/* Community and Feedback */}
+    
       <section className="support-section">
         <h2>Community and Feedback</h2>
         <ul>

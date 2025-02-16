@@ -53,7 +53,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      {/* Hero Section */}
+    
       <section className="hero">
         <h1>Welcome to the Job Portal</h1>
         <p>

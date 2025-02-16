@@ -25,7 +25,7 @@ const Navbar = () => {
         <li><Link to="/support">Support</Link></li>
       </ul>
       <button className="navbar-toggle" onClick={toggleMenu}>
-         <i className="fas fa-bars"></i> {/* This is the menu bar icon */}
+         <i className="fas fa-bars"></i> 
       </button>
 
     </nav>

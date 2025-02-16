@@ -1,4 +1,4 @@
-/* General Styles for Support Page */
+
 .support {
     max-width: 1200px;
     margin: 0 auto;
@@ -53,7 +53,7 @@
     text-decoration: underline;
   }
   
-  /* FAQ Styling */
+
   .faq-btn {
     background: none;
     border: none;
@@ -83,7 +83,7 @@
     margin-bottom: 10px;
   }
   
-  /* Media Queries for Responsiveness */
+
   @media screen and (max-width: 768px) {
     .support {
       width: 80%;
